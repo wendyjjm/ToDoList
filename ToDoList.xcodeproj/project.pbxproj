@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2ADD32F1C449C3C00D3A98B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD32E1C449C3C00D3A98B /* main.m */; };
+		A2ADD3321C449C3C00D3A98B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD3311C449C3C00D3A98B /* AppDelegate.m */; };
+		A2ADD3351C449C3C00D3A98B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD3341C449C3C00D3A98B /* ViewController.m */; };
+		A2ADD3381C449C3C00D3A98B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2ADD3361C449C3C00D3A98B /* Main.storyboard */; };
+		A2ADD33B1C449C3C00D3A98B /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD3391C449C3C00D3A98B /* ToDoList.xcdatamodeld */; };
+		A2ADD33D1C449C3C00D3A98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2ADD33C1C449C3C00D3A98B /* Assets.xcassets */; };
+		A2ADD3401C449C3C00D3A98B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2ADD33E1C449C3C00D3A98B /* LaunchScreen.storyboard */; };
+		A2ADD34B1C449C3C00D3A98B /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD34A1C449C3C00D3A98B /* ToDoListTests.m */; };
+		A2ADD3561C449C3C00D3A98B /* ToDoListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ADD3551C449C3C00D3A98B /* ToDoListUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2ADD3471C449C3C00D3A98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2ADD3221C449C3C00D3A98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ADD3291C449C3C00D3A98B;
+			remoteInfo = ToDoList;
+		};
+		A2ADD3521C449C3C00D3A98B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2ADD3221C449C3C00D3A98B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2ADD3291C449C3C00D3A98B;
+			remoteInfo = ToDoList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2ADD32A1C449C3C00D3A98B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD32E1C449C3C00D3A98B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2ADD3301C449C3C00D3A98B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2ADD3311C449C3C00D3A98B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2ADD3331C449C3C00D3A98B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2ADD3341C449C3C00D3A98B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2ADD3371C449C3C00D3A98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2ADD33A1C449C3C00D3A98B /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
+		A2ADD33C1C449C3C00D3A98B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2ADD33F1C449C3C00D3A98B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2ADD3411C449C3C00D3A98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2ADD3461C449C3C00D3A98B /* ToDoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD34A1C449C3C00D3A98B /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		A2ADD34C1C449C3C00D3A98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2ADD3511C449C3C00D3A98B /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2ADD3551C449C3C00D3A98B /* ToDoListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListUITests.m; sourceTree = "<group>"; };
+		A2ADD3571C449C3C00D3A98B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2ADD3271C449C3C00D3A98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD3431C449C3C00D3A98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD34E1C449C3C00D3A98B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2ADD3211C449C3C00D3A98B = {
+			isa = PBXGroup;
+			children = (
+				A2ADD32C1C449C3C00D3A98B /* ToDoList */,
+				A2ADD3491C449C3C00D3A98B /* ToDoListTests */,
+				A2ADD3541C449C3C00D3A98B /* ToDoListUITests */,
+				A2ADD32B1C449C3C00D3A98B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2ADD32B1C449C3C00D3A98B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD32A1C449C3C00D3A98B /* ToDoList.app */,
+				A2ADD3461C449C3C00D3A98B /* ToDoListTests.xctest */,
+				A2ADD3511C449C3C00D3A98B /* ToDoListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2ADD32C1C449C3C00D3A98B /* ToDoList */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD3301C449C3C00D3A98B /* AppDelegate.h */,
+				A2ADD3311C449C3C00D3A98B /* AppDelegate.m */,
+				A2ADD3331C449C3C00D3A98B /* ViewController.h */,
+				A2ADD3341C449C3C00D3A98B /* ViewController.m */,
+				A2ADD3361C449C3C00D3A98B /* Main.storyboard */,
+				A2ADD33C1C449C3C00D3A98B /* Assets.xcassets */,
+				A2ADD33E1C449C3C00D3A98B /* LaunchScreen.storyboard */,
+				A2ADD3411C449C3C00D3A98B /* Info.plist */,
+				A2ADD3391C449C3C00D3A98B /* ToDoList.xcdatamodeld */,
+				A2ADD32D1C449C3C00D3A98B /* Supporting Files */,
+			);
+			path = ToDoList;
+			sourceTree = "<group>";
+		};
+		A2ADD32D1C449C3C00D3A98B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD32E1C449C3C00D3A98B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2ADD3491C449C3C00D3A98B /* ToDoListTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD34A1C449C3C00D3A98B /* ToDoListTests.m */,
+				A2ADD34C1C449C3C00D3A98B /* Info.plist */,
+			);
+			path = ToDoListTests;
+			sourceTree = "<group>";
+		};
+		A2ADD3541C449C3C00D3A98B /* ToDoListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2ADD3551C449C3C00D3A98B /* ToDoListUITests.m */,
+				A2ADD3571C449C3C00D3A98B /* Info.plist */,
+			);
+			path = ToDoListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2ADD3291C449C3C00D3A98B /* ToDoList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD35A1C449C3C00D3A98B /* Build configuration list for PBXNativeTarget "ToDoList" */;
+			buildPhases = (
+				A2ADD3261C449C3C00D3A98B /* Sources */,
+				A2ADD3271C449C3C00D3A98B /* Frameworks */,
+				A2ADD3281C449C3C00D3A98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToDoList;
+			productName = ToDoList;
+			productReference = A2ADD32A1C449C3C00D3A98B /* ToDoList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2ADD3451C449C3C00D3A98B /* ToDoListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD35D1C449C3C00D3A98B /* Build configuration list for PBXNativeTarget "ToDoListTests" */;
+			buildPhases = (
+				A2ADD3421C449C3C00D3A98B /* Sources */,
+				A2ADD3431C449C3C00D3A98B /* Frameworks */,
+				A2ADD3441C449C3C00D3A98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2ADD3481C449C3C00D3A98B /* PBXTargetDependency */,
+			);
+			name = ToDoListTests;
+			productName = ToDoListTests;
+			productReference = A2ADD3461C449C3C00D3A98B /* ToDoListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2ADD3501C449C3C00D3A98B /* ToDoListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2ADD3601C449C3C00D3A98B /* Build configuration list for PBXNativeTarget "ToDoListUITests" */;
+			buildPhases = (
+				A2ADD34D1C449C3C00D3A98B /* Sources */,
+				A2ADD34E1C449C3C00D3A98B /* Frameworks */,
+				A2ADD34F1C449C3C00D3A98B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2ADD3531C449C3C00D3A98B /* PBXTargetDependency */,
+			);
+			name = ToDoListUITests;
+			productName = ToDoListUITests;
+			productReference = A2ADD3511C449C3C00D3A98B /* ToDoListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2ADD3221C449C3C00D3A98B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JiangJuanming;
+				TargetAttributes = {
+					A2ADD3291C449C3C00D3A98B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A2ADD3451C449C3C00D3A98B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A2ADD3291C449C3C00D3A98B;
+					};
+					A2ADD3501C449C3C00D3A98B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A2ADD3291C449C3C00D3A98B;
+					};
+				};
+			};
+			buildConfigurationList = A2ADD3251C449C3C00D3A98B /* Build configuration list for PBXProject "ToDoList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2ADD3211C449C3C00D3A98B;
+			productRefGroup = A2ADD32B1C449C3C00D3A98B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2ADD3291C449C3C00D3A98B /* ToDoList */,
+				A2ADD3451C449C3C00D3A98B /* ToDoListTests */,
+				A2ADD3501C449C3C00D3A98B /* ToDoListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2ADD3281C449C3C00D3A98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD3401C449C3C00D3A98B /* LaunchScreen.storyboard in Resources */,
+				A2ADD33D1C449C3C00D3A98B /* Assets.xcassets in Resources */,
+				A2ADD3381C449C3C00D3A98B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD3441C449C3C00D3A98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD34F1C449C3C00D3A98B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2ADD3261C449C3C00D3A98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD3351C449C3C00D3A98B /* ViewController.m in Sources */,
+				A2ADD3321C449C3C00D3A98B /* AppDelegate.m in Sources */,
+				A2ADD32F1C449C3C00D3A98B /* main.m in Sources */,
+				A2ADD33B1C449C3C00D3A98B /* ToDoList.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD3421C449C3C00D3A98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD34B1C449C3C00D3A98B /* ToDoListTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2ADD34D1C449C3C00D3A98B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ADD3561C449C3C00D3A98B /* ToDoListUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2ADD3481C449C3C00D3A98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ADD3291C449C3C00D3A98B /* ToDoList */;
+			targetProxy = A2ADD3471C449C3C00D3A98B /* PBXContainerItemProxy */;
+		};
+		A2ADD3531C449C3C00D3A98B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2ADD3291C449C3C00D3A98B /* ToDoList */;
+			targetProxy = A2ADD3521C449C3C00D3A98B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2ADD3361C449C3C00D3A98B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2ADD3371C449C3C00D3A98B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2ADD33E1C449C3C00D3A98B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2ADD33F1C449C3C00D3A98B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2ADD3581C449C3C00D3A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2ADD3591C449C3C00D3A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2ADD35B1C449C3C00D3A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wendy.ToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A2ADD35C1C449C3C00D3A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ToDoList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wendy.ToDoList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A2ADD35E1C449C3C00D3A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToDoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wendy.ToDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+			};
+			name = Debug;
+		};
+		A2ADD35F1C449C3C00D3A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ToDoListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wendy.ToDoListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToDoList.app/ToDoList";
+			};
+			name = Release;
+		};
+		A2ADD3611C449C3C00D3A98B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToDoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wendy.ToDoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToDoList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A2ADD3621C449C3C00D3A98B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ToDoListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Wendy.ToDoListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ToDoList;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2ADD3251C449C3C00D3A98B /* Build configuration list for PBXProject "ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD3581C449C3C00D3A98B /* Debug */,
+				A2ADD3591C449C3C00D3A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2ADD35A1C449C3C00D3A98B /* Build configuration list for PBXNativeTarget "ToDoList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD35B1C449C3C00D3A98B /* Debug */,
+				A2ADD35C1C449C3C00D3A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2ADD35D1C449C3C00D3A98B /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD35E1C449C3C00D3A98B /* Debug */,
+				A2ADD35F1C449C3C00D3A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A2ADD3601C449C3C00D3A98B /* Build configuration list for PBXNativeTarget "ToDoListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2ADD3611C449C3C00D3A98B /* Debug */,
+				A2ADD3621C449C3C00D3A98B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A2ADD3391C449C3C00D3A98B /* ToDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A2ADD33A1C449C3C00D3A98B /* ToDoList.xcdatamodel */,
+			);
+			currentVersion = A2ADD33A1C449C3C00D3A98B /* ToDoList.xcdatamodel */;
+			path = ToDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A2ADD3221C449C3C00D3A98B /* Project object */;
+}
