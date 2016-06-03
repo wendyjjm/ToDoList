@@ -9,10 +9,26 @@
 #import "AddToDoViewController.h"
 
 @interface AddToDoViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UIButton *doneButton;
 
 @end
 
 @implementation AddToDoViewController
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if(sender != self.doneButton)
+    {
+        return;
+    }
+    if(self.textField.text.length >0)
+    {
+        self.toDoItem  = [[ToDoItem alloc]init];
+        self.toDoItem.itemName = self.textField.text;
+        self.toDoItem.completed = NO;
+    }
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
